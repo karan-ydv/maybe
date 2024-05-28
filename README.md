@@ -48,7 +48,7 @@ cp .env.example .env
 bin/setup
 bin/dev
 
-# Optionally, load demo data
+# Optionally, load demo data, required for login with user@maybe.local
 rake demo_data:reset
 ```
 
